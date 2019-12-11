@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		719A55C123A15005007E6600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719A55C023A15005007E6600 /* AppDelegate.swift */; };
+		719A55C323A15005007E6600 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719A55C223A15005007E6600 /* SceneDelegate.swift */; };
+		719A55C523A15005007E6600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719A55C423A15005007E6600 /* ViewController.swift */; };
+		719A55C823A15005007E6600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719A55C623A15005007E6600 /* Main.storyboard */; };
+		719A55CA23A15006007E6600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719A55C923A15006007E6600 /* Assets.xcassets */; };
+		719A55CD23A15006007E6600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719A55CB23A15006007E6600 /* LaunchScreen.storyboard */; };
+		719A55D823A15006007E6600 /* KataLoginLogOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719A55D723A15006007E6600 /* KataLoginLogOutTests.swift */; };
+		719A55E323A15006007E6600 /* KataLoginLogOutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719A55E223A15006007E6600 /* KataLoginLogOutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		719A55D423A15006007E6600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 719A55B523A15005007E6600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 719A55BC23A15005007E6600;
+			remoteInfo = KataLoginLogOut;
+		};
+		719A55DF23A15006007E6600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 719A55B523A15005007E6600 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 719A55BC23A15005007E6600;
+			remoteInfo = KataLoginLogOut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		719A55BD23A15005007E6600 /* KataLoginLogOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KataLoginLogOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		719A55C023A15005007E6600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		719A55C223A15005007E6600 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		719A55C423A15005007E6600 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		719A55C723A15005007E6600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		719A55C923A15006007E6600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		719A55CC23A15006007E6600 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		719A55CE23A15006007E6600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719A55D323A15006007E6600 /* KataLoginLogOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataLoginLogOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		719A55D723A15006007E6600 /* KataLoginLogOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataLoginLogOutTests.swift; sourceTree = "<group>"; };
+		719A55D923A15006007E6600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719A55DE23A15006007E6600 /* KataLoginLogOutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataLoginLogOutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		719A55E223A15006007E6600 /* KataLoginLogOutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataLoginLogOutUITests.swift; sourceTree = "<group>"; };
+		719A55E423A15006007E6600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		719A55BA23A15005007E6600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719A55D023A15006007E6600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719A55DB23A15006007E6600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		719A55B423A15005007E6600 = {
+			isa = PBXGroup;
+			children = (
+				719A55BF23A15005007E6600 /* KataLoginLogOut */,
+				719A55D623A15006007E6600 /* KataLoginLogOutTests */,
+				719A55E123A15006007E6600 /* KataLoginLogOutUITests */,
+				719A55BE23A15005007E6600 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		719A55BE23A15005007E6600 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719A55BD23A15005007E6600 /* KataLoginLogOut.app */,
+				719A55D323A15006007E6600 /* KataLoginLogOutTests.xctest */,
+				719A55DE23A15006007E6600 /* KataLoginLogOutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		719A55BF23A15005007E6600 /* KataLoginLogOut */ = {
+			isa = PBXGroup;
+			children = (
+				719A55C023A15005007E6600 /* AppDelegate.swift */,
+				719A55C223A15005007E6600 /* SceneDelegate.swift */,
+				719A55C423A15005007E6600 /* ViewController.swift */,
+				719A55C623A15005007E6600 /* Main.storyboard */,
+				719A55C923A15006007E6600 /* Assets.xcassets */,
+				719A55CB23A15006007E6600 /* LaunchScreen.storyboard */,
+				719A55CE23A15006007E6600 /* Info.plist */,
+			);
+			path = KataLoginLogOut;
+			sourceTree = "<group>";
+		};
+		719A55D623A15006007E6600 /* KataLoginLogOutTests */ = {
+			isa = PBXGroup;
+			children = (
+				719A55D723A15006007E6600 /* KataLoginLogOutTests.swift */,
+				719A55D923A15006007E6600 /* Info.plist */,
+			);
+			path = KataLoginLogOutTests;
+			sourceTree = "<group>";
+		};
+		719A55E123A15006007E6600 /* KataLoginLogOutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				719A55E223A15006007E6600 /* KataLoginLogOutUITests.swift */,
+				719A55E423A15006007E6600 /* Info.plist */,
+			);
+			path = KataLoginLogOutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		719A55BC23A15005007E6600 /* KataLoginLogOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719A55E723A15006007E6600 /* Build configuration list for PBXNativeTarget "KataLoginLogOut" */;
+			buildPhases = (
+				719A55B923A15005007E6600 /* Sources */,
+				719A55BA23A15005007E6600 /* Frameworks */,
+				719A55BB23A15005007E6600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KataLoginLogOut;
+			productName = KataLoginLogOut;
+			productReference = 719A55BD23A15005007E6600 /* KataLoginLogOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		719A55D223A15006007E6600 /* KataLoginLogOutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719A55EA23A15006007E6600 /* Build configuration list for PBXNativeTarget "KataLoginLogOutTests" */;
+			buildPhases = (
+				719A55CF23A15006007E6600 /* Sources */,
+				719A55D023A15006007E6600 /* Frameworks */,
+				719A55D123A15006007E6600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				719A55D523A15006007E6600 /* PBXTargetDependency */,
+			);
+			name = KataLoginLogOutTests;
+			productName = KataLoginLogOutTests;
+			productReference = 719A55D323A15006007E6600 /* KataLoginLogOutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		719A55DD23A15006007E6600 /* KataLoginLogOutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719A55ED23A15006007E6600 /* Build configuration list for PBXNativeTarget "KataLoginLogOutUITests" */;
+			buildPhases = (
+				719A55DA23A15006007E6600 /* Sources */,
+				719A55DB23A15006007E6600 /* Frameworks */,
+				719A55DC23A15006007E6600 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				719A55E023A15006007E6600 /* PBXTargetDependency */,
+			);
+			name = KataLoginLogOutUITests;
+			productName = KataLoginLogOutUITests;
+			productReference = 719A55DE23A15006007E6600 /* KataLoginLogOutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		719A55B523A15005007E6600 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Fernando Gil Otero";
+				TargetAttributes = {
+					719A55BC23A15005007E6600 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					719A55D223A15006007E6600 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 719A55BC23A15005007E6600;
+					};
+					719A55DD23A15006007E6600 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 719A55BC23A15005007E6600;
+					};
+				};
+			};
+			buildConfigurationList = 719A55B823A15005007E6600 /* Build configuration list for PBXProject "KataLoginLogOut" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 719A55B423A15005007E6600;
+			productRefGroup = 719A55BE23A15005007E6600 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				719A55BC23A15005007E6600 /* KataLoginLogOut */,
+				719A55D223A15006007E6600 /* KataLoginLogOutTests */,
+				719A55DD23A15006007E6600 /* KataLoginLogOutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		719A55BB23A15005007E6600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719A55CD23A15006007E6600 /* LaunchScreen.storyboard in Resources */,
+				719A55CA23A15006007E6600 /* Assets.xcassets in Resources */,
+				719A55C823A15005007E6600 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719A55D123A15006007E6600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719A55DC23A15006007E6600 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		719A55B923A15005007E6600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719A55C523A15005007E6600 /* ViewController.swift in Sources */,
+				719A55C123A15005007E6600 /* AppDelegate.swift in Sources */,
+				719A55C323A15005007E6600 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719A55CF23A15006007E6600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719A55D823A15006007E6600 /* KataLoginLogOutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719A55DA23A15006007E6600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719A55E323A15006007E6600 /* KataLoginLogOutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		719A55D523A15006007E6600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 719A55BC23A15005007E6600 /* KataLoginLogOut */;
+			targetProxy = 719A55D423A15006007E6600 /* PBXContainerItemProxy */;
+		};
+		719A55E023A15006007E6600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 719A55BC23A15005007E6600 /* KataLoginLogOut */;
+			targetProxy = 719A55DF23A15006007E6600 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		719A55C623A15005007E6600 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719A55C723A15005007E6600 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		719A55CB23A15006007E6600 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719A55CC23A15006007E6600 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		719A55E523A15006007E6600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		719A55E623A15006007E6600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		719A55E823A15006007E6600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2983H7QXFQ;
+				INFOPLIST_FILE = KataLoginLogOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appsdaria.KataLoginLogOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		719A55E923A15006007E6600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2983H7QXFQ;
+				INFOPLIST_FILE = KataLoginLogOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appsdaria.KataLoginLogOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		719A55EB23A15006007E6600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2983H7QXFQ;
+				INFOPLIST_FILE = KataLoginLogOutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appsdaria.KataLoginLogOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KataLoginLogOut.app/KataLoginLogOut";
+			};
+			name = Debug;
+		};
+		719A55EC23A15006007E6600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2983H7QXFQ;
+				INFOPLIST_FILE = KataLoginLogOutTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appsdaria.KataLoginLogOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KataLoginLogOut.app/KataLoginLogOut";
+			};
+			name = Release;
+		};
+		719A55EE23A15006007E6600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2983H7QXFQ;
+				INFOPLIST_FILE = KataLoginLogOutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appsdaria.KataLoginLogOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KataLoginLogOut;
+			};
+			name = Debug;
+		};
+		719A55EF23A15006007E6600 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2983H7QXFQ;
+				INFOPLIST_FILE = KataLoginLogOutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appsdaria.KataLoginLogOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KataLoginLogOut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		719A55B823A15005007E6600 /* Build configuration list for PBXProject "KataLoginLogOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719A55E523A15006007E6600 /* Debug */,
+				719A55E623A15006007E6600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719A55E723A15006007E6600 /* Build configuration list for PBXNativeTarget "KataLoginLogOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719A55E823A15006007E6600 /* Debug */,
+				719A55E923A15006007E6600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719A55EA23A15006007E6600 /* Build configuration list for PBXNativeTarget "KataLoginLogOutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719A55EB23A15006007E6600 /* Debug */,
+				719A55EC23A15006007E6600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719A55ED23A15006007E6600 /* Build configuration list for PBXNativeTarget "KataLoginLogOutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719A55EE23A15006007E6600 /* Debug */,
+				719A55EF23A15006007E6600 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 719A55B523A15005007E6600 /* Project object */;
+}
